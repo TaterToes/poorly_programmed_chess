@@ -1,18 +1,7 @@
 ## What I did
 
-Let's say that a regular chess board is an 8 x 8 array'
+Let's say that a regular chess board is an 8 x 8 array. With all the pieces stored into one memory. It's easy to figure out which piece goes where, as it is all given.
 
-## Folder Structure
+No, thats a communist ideal. We love democracy. So instead of giving the board memory, let's give all the pieces memory of their own positions. Now we don't know where the pieces are until we ask them instead. Now, we could just save those positions into a board. But that's also a breach of privacy, we should only ask where they are, and if we could move them.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Long live poor optimizatio- I mean, democracy!
